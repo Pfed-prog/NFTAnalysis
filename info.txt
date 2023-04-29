@@ -1,0 +1,61 @@
+Dataset schema:
+indexer_id: Unique identifier for the NFT sale or collection.
+__confirmed: Flag indicating whether the transfer has been confirmed.
+__block_number: The block number at which the NFT sale occurred.
+block_number: The block number at which the NFT sale occurred.
+log_index: The log index at which the NFT sale occurred.
+transaction_hash: The transaction hash at which the NFT sale occurred.
+timestamp: The timestamp of the NFT sale (in ISO-8601 format).
+exchange_name: The name of the exchange that hosted the NFT sale.
+contract_version: The version of the exchange contract that hosted the NFT sale (e.g. wyvern or seaport for OpenSea).
+aggregator_name: The name of the aggregator used in the NFT sale (null if no aggregator was used).
+contract_address: The contract address of the NFT that was sold or the collection.
+token_id: The token ID of the NFT that was sold or the NFT.
+is_multi_token_sale: Whether the sale is a multi-token sale, including more than one unique NFT for the given payment.
+multi_token_sale_index: The index of the sale within the multi-token sale (will be 0 if not a multi-token sale).
+price: The total value of this sale in the payment token (in Wei).
+usd_price: The total value of this sale in USD.
+eth_price: The total value of this sale in ETH.
+native_price: The total value of this sale in the native token (ETH).
+payment_token_address: The address of the token used to pay for this sale (null if the native token, ETH).
+quantity: The quantity of tokens sold (will only be greater than 1 for ERC-1155 NFTs).
+seller_address: The address of the account that sold the NFT.
+buyer_address: The address of the account that bought the NFT.
+royalty_fee: The decimal-adjusted royalty fee paid to the creator of the NFT.
+platform_fee: The decimal-adjusted platform fee paid to the exchange that facilitated the NFT sale.
+minted_timestamp: The NFT's mint timestamp (in ISO-8601 format) or the collection's timestamp of creation.
+supply: The NFT's supply (0 if NFT has been burned)
+name: The NFT's name.
+description: The NFT's description or the collection's description.
+image_url: The NFT's image URL or the collection's image URL in the Transpose CDN.
+external_url: The NFT's website URL or the collection's website URL.
+media_url: The NFT's additional media URL.
+properties: The NFT's properties (also referred to as attributes or traits) or flattened properties of a collection.
+metadata_url: The NFT's metadata URL.
+last_refreshed: The timestamp at which the collection or NFT was last refreshed by the Transpose backend (in ISO-8601 format).
+flattened_properties: Flattened properties of a collection.
+__updated_block_number: The block number at which the collection was last updated.
+collection.name: The name of the collection.
+
+A dataset from Transpose data is being made available, containing records of all transactions for 5 NFT collections: Bored Ape Yacht Club, Mutant Ape Yacht Club, Azuki, Moonbirds, and Otherdeed. Choose 2 NFT collections from this dataset for analysis.
+
+Data Analysis (50 points)
+Choose any 5 of the 10 questions below to answer as part of your analysis:
+Analyze how the number of daily transactions for the collections has changed over time
+Provide a visual overview of the NFT collections of your choice and its characteristics (e.g. size, type of NFTs, date range)?
+Can you identify any clusters or groups of NFTs within the collection based on their attributes or characteristics? If so, what are the key features of these groups?
+How does the price of NFTs with similar levels of rarity compare across different NFT collections?
+Can you identify any correlations between the characteristics of the NFTs within the collection and their prices? If so, what are the most important factors influencing the prices?
+Have any traits increased in value over time, and if so, which ones?
+Which NFTs in a collection were most profitable when they were flipped (bought and sold quickly)
+Determine the correlation between the number of transactions in a collection and its floor price
+Determine the correlation between the number of transactions in a collection and the price of ETH
+What are the most liquid traits (those with the most sales) for each collection?
+Report (25 points):
+Submit a report describing the above findings. Make sure to include qualitative insights in addition to quantitative ones. Reports will be evaluated on presentation structure, approach, content, and completeness.
+
+Prediction Model (25 points)
+Use your findings above to develop a machine learning model that can be used to determine what the current floor price of the rarest NFT in your chosen collection should be. Based on your model, is the NFT underpriced or overpriced? You will be judged on your choice of features and model.
+
+Bonus: Correct uploading your report to Ocean Market (250 OCEAN)
+You can earn a bonus of 250 OCEAN by uploading your report on the Ocean Market (Polygon Mainnet) as a PDF file. All you need to do is set the price of the report as 250 OCEAN and Ocean Protocol will purchase it from you for that amount. In case you're unsure about how to proceed, you can click on this link to learn more.
