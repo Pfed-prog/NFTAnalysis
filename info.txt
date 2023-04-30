@@ -37,20 +37,25 @@ flattened_properties: Flattened properties of a collection.
 __updated_block_number: The block number at which the collection was last updated.
 collection.name: The name of the collection.
 
-A dataset from Transpose data is being made available, containing records of all transactions for 5 NFT collections: Bored Ape Yacht Club, Mutant Ape Yacht Club, Azuki, Moonbirds, and Otherdeed. Choose 2 NFT collections from this dataset for analysis.
+A dataset from Transpose data is being made available, containing records of all transactions for 5 NFT collections: Bored Ape Yacht Club, Mutant Ape Yacht Club, Azuki, Moonbirds, and Otherdeed. 
+
+Choose 2 NFT collections from this dataset for analysis.
 
 Data Analysis (50 points)
 Choose any 5 of the 10 questions below to answer as part of your analysis:
-Analyze how the number of daily transactions for the collections has changed over time
-Provide a visual overview of the NFT collections of your choice and its characteristics (e.g. size, type of NFTs, date range)?
-Can you identify any clusters or groups of NFTs within the collection based on their attributes or characteristics? If so, what are the key features of these groups?
-How does the price of NFTs with similar levels of rarity compare across different NFT collections?
-Can you identify any correlations between the characteristics of the NFTs within the collection and their prices? If so, what are the most important factors influencing the prices?
+
+*Analyze how the number of daily transactions for the collections has changed over time
+*Provide a visual overview of the NFT collections of your choice and its characteristics (e.g. size, type of NFTs, date range)?
+*Can you identify any clusters or groups of NFTs within the collection based on their attributes or characteristics? If so, what are the key features of these groups?
+*How does the price of NFTs with similar levels of rarity compare across different NFT collections?
+*Can you identify any correlations between the characteristics of the NFTs within the collection and their prices? If so, what are the most important factors influencing the prices?
+
 Have any traits increased in value over time, and if so, which ones?
 Which NFTs in a collection were most profitable when they were flipped (bought and sold quickly)
 Determine the correlation between the number of transactions in a collection and its floor price
 Determine the correlation between the number of transactions in a collection and the price of ETH
 What are the most liquid traits (those with the most sales) for each collection?
+
 Report (25 points):
 Submit a report describing the above findings. Make sure to include qualitative insights in addition to quantitative ones. Reports will be evaluated on presentation structure, approach, content, and completeness.
 
