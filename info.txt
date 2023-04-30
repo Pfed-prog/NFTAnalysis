@@ -46,6 +46,7 @@ Choose any 5 of the 10 questions below to answer as part of your analysis:
 
 *Analyze how the number of daily transactions for the collections has changed over time
 *Provide a visual overview of the NFT collections of your choice and its characteristics (e.g. size, type of NFTs, date range)?
+
 *Can you identify any clusters or groups of NFTs within the collection based on their attributes or characteristics? If so, what are the key features of these groups?
 *How does the price of NFTs with similar levels of rarity compare across different NFT collections?
 *Can you identify any correlations between the characteristics of the NFTs within the collection and their prices? If so, what are the most important factors influencing the prices?
